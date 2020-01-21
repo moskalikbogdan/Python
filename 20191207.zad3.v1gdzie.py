@@ -1,12 +1,12 @@
 import os
 
 slownik = {}  
-sPlik = open("/slownik.txt")
+sPlik = open("slownik.txt")
 haslo = set()
 
 def otworz(plik):
     if os.path.isfile(sPlik):  
-        with open('slownik.txt', "r") as pliktxt: 
+        with open('sPlik', "r") as pliktxt: 
             for line in pliktxt:  
                 t = line.split(":")
                 haslo = t[0]
@@ -14,24 +14,25 @@ def otworz(plik):
                 znaczenia = znaczenia.split(",")
                 slownik[haslo] = znaczenia
     return len(slownik)  
-    pliktxt.close() 
-    
-
 
 def zapisz(slownik):
-    pliktxt = open('slownik.txt', 'w')
+    pliktxt = open('sPlik', 'w')
     for haslo in slownik:
         znaczenia = ",".join(slownik[haslo])
         linia = ":".join([haslo, znaczenia])
         pliktxt.write(linia)  
     pliktxt.close()
  
+def oczysc(str):
+    str = str.strip()  # usuń początkowe lub końcowe białe znaki
+    str = str.lower()  # zmień na małe litery
+    return str
 
 print("""Podaj dane w formacie:
 Hasło: znaczenie
 Aby zakończyć wprowadzanie danych, podaj finit.
     """)
-
+nowy=False
 while True:
     dane = input("Podaj hasło i znaczenie: ")
     t = dane.split(":")
@@ -44,6 +45,7 @@ while True:
             op = input("Zastąpić wpis (t/n)? ")
         if haslo not in slownik or op == "t":
            znaczenia = t[1].split(",") 
+           znaczenia = list(map(oczysc, znaczenia))  # oczyszczamy listę
            slownik[haslo] = znaczenia
            nowy = True
         else:
