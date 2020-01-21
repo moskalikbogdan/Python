@@ -1,0 +1,25 @@
+Zadania:
+
+
+1.	Napisz skrypt, który będzie wyświetlać wszystkie kolejne dzielniki wprowadzonej liczby:
+2.	Korzystając z pętli for oraz możliwości formatowania działania funkcji print utwórz program, który po prowadzeniu liczby wyświetli następujący komunikat:
+
+Enter a number : 5 <- liczba wprowadzona przez uzytkownika
+5.0 x 1 = 5.0
+5.0 x 2 = 10.0
+5.0 x 3 = 15.0
+5.0 x 4 = 20.0
+5.0 x 5 = 25.0
+5.0 x 6 = 30.0
+5.0 x 7 = 35.0
+5.0 x 8 = 40.0
+5.0 x 9 = 45.0
+5.0	x 10 = 50.0
+
+3.	Korzystając z pojęcia funkcji utwórz program, który będzie miał możliwość zamiany temperatury pomiędzy skalami Celsjusza i Fahrenheita (w obie strony). C = (F-32)x(5/9), F = (C*9/5)+32
+4.	Utwórz program do zamiany kilometrów na mile i na odwrót.
+5.	Utwórz program do znajdowania miejsc zerowych trójmianu kwadratowego x1 = (-b+sqrt(b*b-4*a*c))/(2*a)
+x2 = (-b-sqrt(b*b-4*a*c))/(2*a)
+6.	Utwórz program, który będzie komunikować, czy wprowadzona liczba jest dodatnia czy nie
+7.	Utwórz program dodający ułamki zwykłe
+8.	Utwórz program, który wyłączy się po naciśnięciu przez użytkownika konkretnego przycisku. 
