@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1581235377133.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "ECB1A051",
+    "lastKnownWriteTime" : 2459592266154403181,
+    "last_content_update" : 1581235377133,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "5099DF61",
+        "caption" : "malopolska2015",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=malopolska2015&cache_key=5099DF61",
+        "displayedObservations" : 12,
+        "environment" : "",
+        "expression" : "malopolska2015",
+        "object" : "malopolska2015",
+        "preview" : 0,
+        "totalObservations" : 12,
+        "variables" : 13
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

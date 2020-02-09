@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "tab<-read.csv(file=\"CENY_2917_CTAB_20200124233110.csv\",sep=\";\",dec=\",\")\nView(tab)\nnames(tab)\nnames(tab)[1:8]\npaste0(\"miesoWolZKosciazaKg\",c(\"2015\",\"2016\",\"2017\",\"2018\",\"2019\"))\n\nnames(tab)[3:7]<-paste0(\"miesoWolZKosciazaKg\",c(\"2015\",\"2016\",\"2017\",\"2018\",\"2019\"))\nnames(tab)[8:12]<-paste0(\"serDojrzewZaKg\",c(\"2015\",\"2016\",\"2017\",\"2018\",\"2019\"))\nnames(tab)[13:17]<-paste0(\"jajKurze\",c(\"2015\",\"2016\",\"2017\",\"2018\",\"2019\"))\nnames(tab)[18:22]<-paste0(\"Masło\",c(\"2015\",\"2016\",\"2017\",\"2018\",\"2019\"))\nnames(tab)[23:27]<-paste0(\"jablkaZaKg\",c(\"2015\",\"2016\",\"2017\",\"2018\",\"2019\"))\nnames(tab)[28:32]<-paste0(\"CzyszczenieGarnituru\",c(\"2015\",\"2016\",\"2017\",\"2018\",\"2019\"))\nnames(tab)[33:37]<-paste0(\"PolbutyDamskie\",c(\"2015\",\"2016\",\"2017\",\"2018\",\"2019\"))\nnames(tab)[38:42]<-paste0(\"BateriaZlewoz\",c(\"2015\",\"2016\",\"2017\",\"2018\",\"2019\"))\nnames(tab)[43:47]<-paste0(\"WizytaULekarza\",c(\"2015\",\"2016\",\"2017\",\"2018\",\"2019\"))\n\n12*45\n\nwoj<-rep(c(\"Polska\",\"dolnoslaskie\",\"kujawsko-pomorskie\",\"lubelskie\",\"lubuskie\",\"lodzkie\",\"malopolskie\",\n  \"mazowieckie\",\"opolskie\",\"podkarpackie\",\"podlaskie\",\"pomorskie\",\"slaskie\",\"swietokrzyskie\",\n  \"warminsko-mazurskie\",\"wielkopolskie\",\"zachodniopomorskie\"),12*45)\nmies<-rep(c(\"sty\",\"lut\",\"mar\",\"kwi\",\"maj\",\"cze\",\"lip\",\"sie\",\"wrz\",\"paz\",\"lis\",\"gru\"),each=17*45)\n\nhead(mies,20)\nsum(mies==\"sty\")\nnames(tab)[48:52]<-paste0(\"WizytaULekarza\",c(\"2015\",\"2016\",\"2017\",\"2018\",\"2019\"))\n\n\n\n",
+    "created" : 1581021612690.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1704296004",
+    "id" : "A82E7C82",
+    "lastKnownWriteTime" : 1581025517,
+    "last_content_update" : 1581025517780,
+    "path" : "D:/Dane/betka/zadanieBogdan/Zadanie/projekt.R",
+    "project_path" : "projekt.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

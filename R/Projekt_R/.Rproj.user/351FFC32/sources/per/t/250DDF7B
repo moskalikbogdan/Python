@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1581235182848.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "250DDF7B",
+    "lastKnownWriteTime" : 7017771752431185769,
+    "last_content_update" : 1581235182848,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "EE66B0F8",
+        "caption" : "dane",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=dane&cache_key=EE66B0F8",
+        "displayedObservations" : 1020,
+        "environment" : "",
+        "expression" : "dane",
+        "object" : "dane",
+        "preview" : 0,
+        "totalObservations" : 1020,
+        "variables" : 13
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1581090090976.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "941020780",
+    "id" : "56FE1250",
+    "lastKnownWriteTime" : 1581107801,
+    "last_content_update" : 1581107801276,
+    "path" : "D:/beata/Nauka/zadanieBogdan/Zadanie/projekt.R",
+    "project_path" : "projekt.R",
+    "properties" : {
+        "cursorPosition" : "90,0",
+        "scrollLine" : "70"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

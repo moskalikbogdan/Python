@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1581234079591.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3673078200",
+    "id" : "E6649674",
+    "lastKnownWriteTime" : 1581098367,
+    "last_content_update" : 1581098367,
+    "path" : "C:/Users/OCTO 00/Dysk Google/CDV/Statystyka/zadanieBogdan/Zadanie/funkcje.R",
+    "project_path" : "funkcje.R",
+    "properties" : {
+        "cursorPosition" : "35,0",
+        "scrollLine" : "18"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

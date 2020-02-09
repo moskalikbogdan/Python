@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1581235123238.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2665197087",
+    "id" : "7C30EDBD",
+    "lastKnownWriteTime" : 1581108226,
+    "last_content_update" : 1581108226,
+    "path" : "C:/Users/OCTO 00/Dysk Google/CDV/Statystyka/zadanieBogdan/Zadanie/analiza2.R",
+    "project_path" : "analiza2.R",
+    "properties" : {
+        "cursorPosition" : "65,0",
+        "scrollLine" : "50"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
