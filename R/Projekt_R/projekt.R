@@ -91,3 +91,4 @@ dane<-data.frame(woj=woj1, rok=rok1, mies=mies, mon=mon, miesoWolZKosciazaKg=mie
 dim(dane)
 
 #Analiza danych w osobnym skrypcie
+

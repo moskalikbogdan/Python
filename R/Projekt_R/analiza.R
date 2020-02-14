@@ -80,3 +80,4 @@ ggplot(data = odchylenia,
               width=.2,                    # Width of the error bars
               col="darkblue") + 
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
